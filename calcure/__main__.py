@@ -49,6 +49,8 @@ elif cf.LANG == "de":
     from calcure.translations.de import *
 elif cf.LANG == "es":
     from calcure.translations.es import *
+elif cf.LANG == "hu":
+    from calcure.translations.hu import *
 else:
     from calcure.translations.en import *
 
